@@ -5,7 +5,7 @@
 # excited
 class Cell
 
-  alias :brag, :its
+  alias_method :its, :brag
 
   # whaaaa, data change time!
   def []= key, value
